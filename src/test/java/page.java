@@ -18,5 +18,6 @@ public class page
         System.out.println("Navigated to google site successfully");
         driver.close();
         System.out.println("Browser has been closed successfully");
+        System.out.println("***end**");
     }
 }
