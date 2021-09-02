@@ -10,6 +10,8 @@
 
     <properties>
         <suiteXmlfile>testng.xml</suiteXmlfile>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
         <dependencies>
             <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -110,7 +112,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.0</version>
+                    <version>3.8.1</version>
                     <configuration>
                         <executable>C:\Program Files\Java\jdk-16.0.2\bin\javac.exe</executable>
                     </configuration>

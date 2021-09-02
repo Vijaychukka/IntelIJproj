@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-02T15:27:38 BST" name="All Test Suite" finished-at="2021-09-02T15:27:44 BST" duration-ms="6209">
+  <suite started-at="2021-09-02T15:58:49 BST" name="All Test Suite" finished-at="2021-09-02T15:58:55 BST" duration-ms="6511">
     <groups>
     </groups>
-    <test started-at="2021-09-02T15:27:38 BST" name="C:/Users/Vijay/Downloads/Finalcodebases/Finalcodebases/IntelIJproj/src/test/Testcases/basepage.java" finished-at="2021-09-02T15:27:44 BST" duration-ms="6209">
+    <test started-at="2021-09-02T15:58:49 BST" name="C:/Users/Vijay/Downloads/Finalcodebases/Finalcodebases/IntelIJproj/src/test/Testcases/basepage.java" finished-at="2021-09-02T15:58:55 BST" duration-ms="6511">
       <class name="Page.basepage">
-        <test-method is-config="true" signature="printmehtod()[pri:0, instance:Page.basepage@4ed15347]" started-at="2021-09-02T15:27:38 BST" name="printmehtod" finished-at="2021-09-02T15:27:38 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="printmehtod()[pri:0, instance:Page.basepage@5e5ddfbc]" started-at="2021-09-02T15:58:49 BST" name="printmehtod" finished-at="2021-09-02T15:58:49 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printmehtod -->
-        <test-method signature="runm()[pri:0, instance:Page.basepage@4ed15347]" started-at="2021-09-02T15:27:38 BST" name="runm" finished-at="2021-09-02T15:27:44 BST" duration-ms="6177" status="PASS">
+        <test-method signature="runm()[pri:0, instance:Page.basepage@5e5ddfbc]" started-at="2021-09-02T15:58:49 BST" name="runm" finished-at="2021-09-02T15:58:55 BST" duration-ms="6479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runm -->
-        <test-method is-config="true" signature="aftermethods()[pri:0, instance:Page.basepage@4ed15347]" started-at="2021-09-02T15:27:44 BST" name="aftermethods" finished-at="2021-09-02T15:27:44 BST" duration-ms="0" status="PASS">
+        <test-method signature="secondtest()[pri:0, instance:Page.basepage@5e5ddfbc]" started-at="2021-09-02T15:58:55 BST" name="secondtest" finished-at="2021-09-02T15:58:55 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtest -->
+        <test-method is-config="true" signature="aftermethods()[pri:0, instance:Page.basepage@5e5ddfbc]" started-at="2021-09-02T15:58:55 BST" name="aftermethods" finished-at="2021-09-02T15:58:55 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethods -->

@@ -26,7 +26,11 @@ public class basepage
     {
         System.out.println("running before actual test case");
     }
-
+    @Test
+    public void secondtest()
+    {
+        System.out.println("test");
+    }
     @AfterTest
     public void aftermethods()
     {
