@@ -11,18 +11,12 @@
     <properties>
         <suiteXmlfile>testng.xml</suiteXmlfile>
     </properties>
-
         <dependencies>
             <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-java</artifactId>
                 <version>3.13.0</version>
-            </dependency>
-            <dependency>
-                <groupId>javax.mail</groupId>
-                <artifactId>mail</artifactId>
-                <version>1.5.0-b01</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
             <dependency>
@@ -46,19 +40,13 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>6.14.2</version>
-                <scope>compile</scope>
+                <version>7.4.0</version>
+                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi</artifactId>
                 <version>3.17</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/org.clojure/java.jdbc -->
-            <dependency>
-                <groupId>org.clojure</groupId>
-                <artifactId>java.jdbc</artifactId>
-                <version>0.7.7</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
             <dependency>
@@ -99,12 +87,6 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>org.seleniumhq.webdriver</groupId>
-                <artifactId>webdriver-parent</artifactId>
-                <version>0.9.7376</version>
-                <scope>compile</scope>
-            </dependency>
-            <dependency>
                 <groupId>io.github.bonigarcia</groupId>
                 <artifactId>webdrivermanager</artifactId>
                 <version>3.0.0</version>
@@ -120,9 +102,8 @@
             <dependency>
                 <groupId>com.beust</groupId>
                 <artifactId>jcommander</artifactId>
-                <version>2.2.4</version>
+                <version>1.81</version>
             </dependency>
-
         </dependencies>
         <build>
             <plugins>
@@ -131,10 +112,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.0</version>
                     <configuration>
-                        <source>1.8</source>
-                        <target>1.8</target>
-                        <fork>true</fork>
-                        <executable>C:\Program Files\Java\jdk1.8.0_121\bin\javac.exe</executable>
+                        <executable>C:\Program Files\Java\jdk-16.0.2\bin\javac.exe</executable>
                     </configuration>
                 </plugin>
                 <plugin>
@@ -144,7 +122,7 @@
                     <configuration>
                         <forkCount>0</forkCount>
                         <suiteXmlFiles>
-                            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                            <suiteXmlFile>testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
